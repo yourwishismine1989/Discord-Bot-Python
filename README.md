@@ -90,3 +90,9 @@ PUBLIC_KEY=<paste your copied PUBLIC_KEY here>
 >> Choose your server from the Drop-Down box then click ***Continue***
 <!--Images-->
 ![Add the Bot to your Server](Add-Bot-To-Server.jpg)
+>> Click ***Authorize***
+<!--Images-->
+![Authorize the bot](Auhtorize-Bot.jpg)
+* The bot (which still needs the code written for) should now be OFFLINE on your server, next we will write the code to make the bot perform
+<!--Images-->
+![Bot OFFLINE on server](Offline-Bot.jpg)
