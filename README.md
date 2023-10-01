@@ -144,3 +144,6 @@ nano bot.py
 python bot.py
 ```
 ### Congratulations, on making your first Discord bot in Python
+#### Notes
+>> [Discord - Developer Docs](https://discord.com/developers/docs/intro)
+>> Tested on Ubuntu 22.04 on 2023-10-01
