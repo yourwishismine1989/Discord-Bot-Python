@@ -79,3 +79,5 @@ APPLICATION_ID=<paste copied APPICATION ID here>
 PUBLIC_KEY=<paste your copied PUBLIC_KEY here>
 ```
 >>4. CTRL+O -> ENTER -> CTRL+X
+<!--Images-->
+![General Information](General-Information.jpg)
