@@ -1,5 +1,5 @@
 # Discord-Bot-Python
  Basic Discord bot written in Python
 1. Make Discord account if you don't have one already.
-<!-- links -->
+<!-- links --> 
 [Discord - Register new account] (discord.com/register)
