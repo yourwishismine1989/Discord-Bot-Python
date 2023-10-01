@@ -17,10 +17,13 @@
 ![Create And Application](Create-An-Application.jpg)
 * Click ***Bot*** on the left
     1. PRESENCE INTENT (toggle on)
-    1. SERVERS MEMBERS INTENT (toggle on)
-    1. MESSAGE CONTENT INTENT (toggle on)
-    1. Administrator (check box)
-    1. Save Changes
-    1. Reset Token
+    2. SERVERS MEMBERS INTENT (toggle on)
+    3. MESSAGE CONTENT INTENT (toggle on)
+    4. Administrator (check box)
+    5. Save Changes
+    6. Reset Token
 <!--Images-->
 ![Choose Bot Application](Choose-Bot-Application.jpg)
+* Click ***Yes, do it!
+<!--Images-->
+![Yes, do it!](Yes-do-it.jpg)
