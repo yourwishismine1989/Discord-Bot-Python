@@ -5,7 +5,7 @@
 >> [Discord - Register a new account](discord.com/register)
 <!--Images-->
 ![Discord - Register a new account](Discord-Register_a_new_account.jpg)
-* Got to the Discord Developer Portal
+* Goto to the Discord Developer Portal and click ***New Application***
 <!-- links -->
 >> [DiscordDeveloperPortal](discord.com/developers/applications)
 <!--Images-->
