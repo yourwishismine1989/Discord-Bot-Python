@@ -50,7 +50,7 @@ TOKEN=<paste your copied token here>
 >>1. click ***OAuth2***
 >>2. click ***URL Generator***
 >>3. click ***bot***
->>4. click ***Administrator***
+>>4. check the ***Administrator*** check box
 >>5. click ***Copy***
 <!--Images-->
 ![OAuto2 steops](OAuth2_steps.jpg)
@@ -59,3 +59,23 @@ TOKEN=<paste your copied token here>
 TOKEN=<paste your copied token here>
 INVITE_URL=<paste the copied URL here>
 ```
+* In the Discord Developer Portal
+<!--Ordered List -->
+>>1. click ***General Information***
+>>2. click ***Copy*** button under ***APPLICATION ID***
+* back in the terminal (nano still open)
+```
+TOKEN=<paste your copied token here>
+INVITE_URL=<paste the copied URL here>
+APPLICATION_ID=<paste copied APPICATION ID here>
+```
+* In the Discord Developer Portal
+>>3. click ***Copy*** button under ***PUBLIC_KEY***
+* back in the terminal (nano still open)
+```
+TOKEN=<paste your copied token here>
+INVITE_URL=<paste the copied URL here>
+APPLICATION_ID=<paste copied APPICATION ID here>
+PUBLIC_KEY=<paste your copied PUBLIC_KEY here>
+```
+>>4. CTRL+O -> ENTER -> CTRL+X
