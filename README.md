@@ -59,7 +59,9 @@ TOKEN=<paste your copied token here>
 TOKEN=<paste your copied token here>
 INVITE_URL=<paste the copied URL here>
 ```
-* In the Discord Developer Portal
+* open a new TAB in your Web-Browser and paste the copied URL in the Address bar of the new TAB (don't press ENTER)
+* click back to the Discord Developer Portal TAB
+* In the Discord Developer Portal (see image below showing steps in Developer Portal)
 <!--Ordered List -->
 >>1. click ***General Information***
 >>2. click ***Copy*** button under ***APPLICATION ID***
@@ -81,3 +83,10 @@ PUBLIC_KEY=<paste your copied PUBLIC_KEY here>
 >>4. CTRL+O -> ENTER -> CTRL+X
 <!--Images-->
 ![General Information](General-Information.jpg)
+* Create a Discord Server (also known as a Guild)
+<!-- links -->
+>> [Discord - Create a server](https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server-)
+* click the new TAB you opened earlier in your Web-Browser and click enter on the Address you pasted in the Address bar
+>> Choose your server from the Drop-Down box then click ***Continue***
+<!--Images-->
+![Add the Bot to your Server](Add-Bot-To-Server.jpg)
