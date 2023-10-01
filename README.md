@@ -36,7 +36,7 @@ cd MyPythonBot/
 touch requirements.txt
 touch .env
 touch bot.py
-nano.env
+nano .env
 ```
 * In the Discord Developer Portal click ***Copy*** to copy your bot's private TOKEN (always keep this private)
 <!--Images-->
@@ -96,3 +96,51 @@ PUBLIC_KEY=<paste your copied PUBLIC_KEY here>
 * The bot (which still needs the code written for) should now be OFFLINE on your server, next we will write the code to make the bot perform
 <!--Images-->
 ![Bot OFFLINE on server](Offline-Bot.jpg)
+* back in the terminal
+<!-- Bash script block -->
+```bash
+sudo apt --yes install python3-pip
+pip install --upgrade python-dotenv
+pip install --upgrade discord.py
+echo 'export PATH="/home/<your Username>/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+nano bot.py
+> import os
+> import random
+> import discord
+> from dotenv import load_dotenv
+> 
+> load_dotenv()
+> TOKEN = os.getenv('TOKEN')
+> INVITE_URL = os.getenv('INVITE_URL')
+> APPLICATION_ID = os.getenv('APPLICATION_ID')
+> PUBLIC_KEY = os.getenv('PUBLIC_KEY')
+> 
+> intents = discord.Intents().all()
+> client = discord.Client(intents=intents)
+> 
+> @client.event
+> async def on_ready():
+>     print(f'{client.user} has connected to Discord!')
+> 
+> @client.event
+> async def on_message(message):
+>     if message.author == client.user:
+>         return
+> 
+>     hello = [
+>         'Hello, {}.'.format(message.author.name),
+>         'Good Morning, {}.'.format(message.author.name),
+>         'Good Evening, {}.'.format(message.author.name)
+>     ]
+> 
+>     if message.content == 'hello':
+>         response = random.choice(hello)
+>         await message.channel.send(response)
+>         print(response)
+> 
+> client.run(TOKEN)
+> CTRL+O -> ENTER -> CTRL+X# bot.py
+python bot.py
+```
+### Congratulations, on making your first Discord bot in Python
