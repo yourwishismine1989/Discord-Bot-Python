@@ -16,12 +16,13 @@
 <!--Images-->
 ![Create And Application](Create-An-Application.jpg)
 * Click ***Bot*** on the left
-    1. PRESENCE INTENT (toggle on)
-    2. SERVERS MEMBERS INTENT (toggle on)
-    3. MESSAGE CONTENT INTENT (toggle on)
-    4. Administrator (check box)
-    5. Save Changes
-    6. Reset Token
+<!--Ordered List -->
+>>1. PRESENCE INTENT (toggle on)
+>>2. SERVERS MEMBERS INTENT (toggle on)
+>>3. MESSAGE CONTENT INTENT (toggle on)
+>>4. Administrator (check box)
+>>5. Save Changes
+>>6. Reset Token
 <!--Images-->
 ![Choose Bot Application](Choose-Bot-Application.jpg)
 * Click ***Yes, do it!***
@@ -45,11 +46,12 @@ nano.env
 TOKEN=<paste your copied token here>
 ```
 * In the Discord Developer Portal
-    1. click ***OAuth2***
-    2. click ***URL Generator***
-    3. click ***bot***
-    4. click ***Administrator***
-    5. click ***Copy***
+<!--Ordered List -->
+>>1. click ***OAuth2***
+>>2. click ***URL Generator***
+>>3. click ***bot***
+>>4. click ***Administrator***
+>>5. click ***Copy***
 <!--Images-->
 ![OAuto2 steops](OAuth2_steps.jpg)
 * back in the terminal (nano still open)
@@ -57,5 +59,3 @@ TOKEN=<paste your copied token here>
 TOKEN=<paste your copied token here>
 INVITE_URL=<paste the copied URL here>
 ```
-
-
