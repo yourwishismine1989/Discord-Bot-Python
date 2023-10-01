@@ -12,3 +12,6 @@
 >> [Discord - Developer Portal](https://discord.com/developers/applications)
 <!--Images-->
 ![Discord - Developer Portal](Discord-Developer-Portal.jpg)
+* NAME your bot, Check the box and click ***Create***
+<!--Images-->
+![Create And Application](Create-An-Application.jpg)
