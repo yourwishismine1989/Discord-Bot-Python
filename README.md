@@ -92,7 +92,7 @@ PUBLIC_KEY=<paste your copied PUBLIC_KEY here>
 ![Add the Bot to your Server](Add-Bot-To-Server.jpg)
 >> Click ***Authorize***
 <!--Images-->
-![Authorize the bot](Auhtorize-Bot.jpg)
+![Authorize the bot](Authorize-Bot.jpg)
 * The bot (which still needs the code written for) should now be OFFLINE on your server, next we will write the code to make the bot perform
 <!--Images-->
 ![Bot OFFLINE on server](Offline-Bot.jpg)
