@@ -15,3 +15,12 @@
 * NAME your bot, Check the box and click ***Create***
 <!--Images-->
 ![Create And Application](Create-An-Application.jpg)
+* Click ***Bot*** on the left
+    1. PRESENCE INTENT (toggle on)
+    1. SERVERS MEMBERS INTENT (toggle on)
+    1. MESSAGE CONTENT INTENT (toggle on)
+    1. Administrator (check box)
+    1. Save Changes
+    1. Reset Token
+<!--Images-->
+![Choose Bot Application](Choose-Bot-Application.jpg)
