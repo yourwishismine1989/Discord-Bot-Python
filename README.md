@@ -24,6 +24,38 @@
     6. Reset Token
 <!--Images-->
 ![Choose Bot Application](Choose-Bot-Application.jpg)
-* Click ***Yes, do it!
+* Click ***Yes, do it!***
 <!--Images-->
 ![Yes, do it!](Yes-do-it.jpg)
+* in a Terminal window
+<!-- Bash script block -->
+```bash
+mkdir MyPythonBot
+cd MyPythonBot/
+touch requirements.txt
+touch .env
+touch bot.py
+nano.env
+```
+* In the Discord Developer Portal click ***Copy*** to copy your bot's private TOKEN (always keep this private)
+<!--Images-->
+![Copy your bot private TOKEN](Copy-your-bot-private-TOKEN.jpg)
+* back in the terminal (nano still open)
+```
+TOKEN=<paste your copied token here>
+```
+* In the Discord Developer Portal
+    1. click ***OAuth2***
+    2. click ***URL Generator***
+    3. click ***bot***
+    4. click ***Administrator***
+    5. click ***Copy***
+<!--Images-->
+![OAuto2 steops](OAuth2_steps.jpg)
+* back in the terminal (nano still open)
+```
+TOKEN=<paste your copied token here>
+INVITE_URL=<paste the copied URL here>
+```
+
+
