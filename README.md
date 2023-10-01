@@ -145,5 +145,15 @@ python bot.py
 ```
 ### Congratulations, on making your first Discord bot in Python
 #### Notes
+<!-- links -->
 * [Discord - Developer Docs](https://discord.com/developers/docs/intro)
 * Tested on Ubuntu 22.04 on 2023-10-01
+* Recommend using VSCode instead of nano
+<!-- links -->
+* [Visual Studio Code (VSCode)](https://code.visualstudio.com/download)
+* This isn't meant to be a Python course, for an introductory Python
+<!-- links -->
+* [Programming with Mosh - Python for Beginners](https://www.youtube.com/watch?v=kqtD5dpn9C8)
+* For getting Python setup on your Computer, see my Getting Started tutorial here
+<!-- links -->
+* [Python - Getting Started](https://github.com/yourwishismine1989/Python_Getting-Started)
