@@ -144,7 +144,7 @@ async def on_message(message):
 client.run(TOKEN)
 ```
 ```bash
-> CTRL+O -> ENTER -> CTRL+X# bot.py
+> CTRL+O -> ENTER -> CTRL+X
 python bot.py
 ```
 ### Congratulations, on making your first Discord bot in Python
