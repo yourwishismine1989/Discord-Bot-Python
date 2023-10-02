@@ -151,7 +151,7 @@ python bot.py
 * Recommend using VSCode instead of nano
 <!-- links -->
 * [Visual Studio Code (VSCode)](https://code.visualstudio.com/download)
-* This isn't meant to be a Python course, for an introductory Python
+* This isn't meant to be a Python course, for an introductory Python Course see the link below
 <!-- links -->
 * [Programming with Mosh - Python for Beginners](https://www.youtube.com/watch?v=kqtD5dpn9C8)
 * For getting Python setup on your Computer, see my Getting Started tutorial here
